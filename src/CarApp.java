@@ -1,6 +1,14 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/*
+ *  Andrew Calabro-Cavin
+ *  Hold details about cars in a Car class
+ *  use ArrayList
+ *  format output using printf
+ *  use ValidatorCar class
+ */
+
 public class CarApp {
 
 	public static void main(String[] args) {

@@ -4,14 +4,15 @@ public class ValidatorCar {
 	
 	public static String getString(Scanner sc, String prompt) {
 		System.out.print(prompt);
-		String s = sc.next(); // read user entry
+		String s = sc.nextLine(); // read user entry
+		
 		/*  validate that input is not an int
 		if (sc.hasNextInt()) {
 			System.out.println("Not a valid entry.");
 		}
 		*/
 		
-		sc.nextLine(); // discard any other data entered on the line
+		// sc.nextLine(); // discard any other data entered on the line
 		return s;
 	}
 
